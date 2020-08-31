@@ -3,20 +3,33 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+function App() {
+  return (
+      <div className="demo-big-content">
+          <Layout>
+              <Header className="header-color" title="Tanner Nielsen" scroll>
+                  <Navigation>
+                      <a href="/">Home</a>
+                      <a href="/projects">Projects</a>
+                      <a href="/resume">Resume</a>
+                      <a href="/bio-contact">Bio/Contact</a>
+                  </Navigation>
+              </Header>
+              <Drawer title="Menu">
+                  <Navigation>
+                      <a href="/">Home</a>
+                      <a href="/projects">Projects</a>
+                      <a href="/resume">Resume</a>
+                      <a href="/bio-contact">Bio/Contact</a>
+                  </Navigation>
+              </Drawer>
+              <Content>
+                  <div className="page-content" />
+                  <Main/>
+              </Content>
+          </Layout>
       </div>
-    );
-  }
+  );
 }
 
 export default App;
