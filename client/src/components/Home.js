@@ -1,5 +1,6 @@
 import React, { Component } from 'raect';
 import { Grid, Cell } from 'react-mdl';
+import Resume from "../../public/assets";
 
 class Home extends Component {
     render() {
@@ -24,7 +25,7 @@ class Home extends Component {
                         <a href="https://github.com/tanMan5" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github" aria-hidden="true"/>
                         </a>
-                        <a href={resume} rel="noopener noreferrer" target="_blank">
+                        <a href={Resume} rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-file-text" aria-hidden="true"/>
                         </a>
                     </div>
