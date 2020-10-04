@@ -14,7 +14,7 @@ class Home extends Component {
                     <h1>Full Stack Web Developer</h1>
                     <hr/>
                     <p>
-                        HTML/CSS | Bootstrap | Javascript/jQuery | React | NodeJS | Express | SQL | Firebase
+                        HTML/CSS | Bootstrap | Javascript/jQuery | React | NodeJS | Express | SQL | MongoDB 
                     </p>
                     <div className="social-links">
                         <a href="https://www.linkedin.com/in/tanner-nielsen-224a60149/" rel="noopener noreferrer" target="_blank">
