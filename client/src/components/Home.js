@@ -1,14 +1,15 @@
-import React, { Component } from 'raect';
+import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Resume from "../../public/assets";
+import Resume from "../../public/assets/tnResume.pdf";
 
 class Home extends Component {
     render() {
         return(<div style={{width: '100%', margin: 'auto'}}>
         <Grid className='landing-grid'>
             <Cell col={12}>
-                <img 
-                    
+                <img src={require("../../public/assets/mainPic.jpeg")}
+                alt="front-end"
+                className="frontEnd-img"                    
                 />
                 <div className="banner-text">
                     <h1>Full Stack Web Developer</h1>

@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/Main';
 import "./App.css";
 
 function App() {
@@ -10,17 +11,17 @@ function App() {
               <Header className="header-color" title="Tanner Nielsen" scroll>
                   <Navigation>
                       <a href="/">Home</a>
-                      <a href="/projects">Projects</a>
+                      {/* <a href="/projects">Projects</a>
                       <a href="/resume">Resume</a>
-                      <a href="/bio-contact">Bio/Contact</a>
+                      <a href="/bio-contact">Bio/Contact</a> */}
                   </Navigation>
               </Header>
               <Drawer title="Menu">
                   <Navigation>
                       <a href="/">Home</a>
-                      <a href="/projects">Projects</a>
+                      {/* <a href="/projects">Projects</a>
                       <a href="/resume">Resume</a>
-                      <a href="/bio-contact">Bio/Contact</a>
+                      <a href="/bio-contact">Bio/Contact</a> */}
                   </Navigation>
               </Drawer>
               <Content>
